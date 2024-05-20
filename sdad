@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo_form</title>
+</head>
+<body>
+    <form <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="29e9765c-3370-497a-867f-ebde04b3cb30">
+        Name: <input type="text" name="full name" placeholder="your name" required><br>
+        <br>
+        Email: <input type="text" name="e mail" placeholder="your email" required>
+        <br><br>
+        Message: <textarea cols="30" rows="5"></textarea><br><br><br>
+        <button type="submit" value="submit">Send</button>
+    </form>
+</body>
+</html>
